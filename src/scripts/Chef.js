@@ -22,7 +22,7 @@ export default class Chef {
     for (let i = 0; i < this.chef.length; i++) {
       const poutine = this.chef[i];
 
-      if (poutine.selectedType.length > 0) {
+      if (poutine.type.length > 0) {
         nombrePoutine += 1;
       }
     }
